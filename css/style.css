@@ -18,7 +18,7 @@ body  {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image:url(..//witcher/img/background.jpg);
+  background-image:url(..//img/background.jpg);
   background-repeat:no-repeat;
   background-position:top right 20%;
 }
@@ -169,7 +169,7 @@ margin-bottom: 10px;
   
 }
 .card-1 {
-  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),url('..//witcher/img/series/card-1.png');
+  background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),url('..//img/series/card-1.png');
 }
 .card-2 {
   background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),url('..//img/series/card-2.png');
@@ -179,6 +179,7 @@ margin-bottom: 10px;
 }
 .card-4 {
   background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),url('..//img/series/card-4.png');
+  background-position: left center;
 }
 .card-5 {
   background: linear-gradient(180deg, rgba(20, 18, 24, 0.5) 0%, #2D2D2D 100%),url('..//img/series/card-5.png');
@@ -229,6 +230,10 @@ margin-bottom: 10px;
 }
 .menu-button {
   display: none;
+}
+.series-play {
+  text-decoration: none;
+  color:#fff;
 }
 
 /* адаптив */
